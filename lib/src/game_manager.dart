@@ -1,11 +1,11 @@
 library app.game_manager;
 
 import 'dart:math' as math;
-import 'package:2048/src/position.dart';
-import 'package:2048/src/tile.dart';
-import 'package:2048/src/grid.dart';
-import 'package:2048/src/html_actuator.dart';
-import 'package:2048/src/input_manager.dart';
+import 'package:bricks/src/position.dart';
+import 'package:bricks/src/tile.dart';
+import 'package:bricks/src/grid.dart';
+import 'package:bricks/src/html_actuator.dart';
+import 'package:bricks/src/input_manager.dart';
 
 class GameManager {
   int size;

@@ -1,9 +1,9 @@
 library app.renderer;
 
 import 'dart:html' as dom;
-import 'package:2048/src/grid.dart';
-import 'package:2048/src/tile.dart';
-import 'package:2048/src/position.dart';
+import 'package:bricks/src/grid.dart';
+import 'package:bricks/src/tile.dart';
+import 'package:bricks/src/position.dart';
 
 class HTMLActuator {
 

@@ -1,6 +1,6 @@
 library app.tile;
 
-import 'package:2048/src/position.dart';
+import 'package:bricks/src/position.dart';
 
 class Tile {
   Position position;

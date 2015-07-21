@@ -1,8 +1,8 @@
 library app.grid;
 
 import 'dart:math' as math;
-import 'package:2048/src/tile.dart';
-import 'package:2048/src/position.dart';
+import 'package:bricks/src/tile.dart';
+import 'package:bricks/src/position.dart';
 
 class Grid {
   var size;

@@ -2,12 +2,9 @@
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
 import 'dart:html' as dom;
-import 'package:2048/2048.dart';
+import 'package:bricks/bricks.dart';
 
 void main() {
-  Grid grid = new Grid(5);
-  print(grid.cells);
-  print(grid.randomAvailableCell());
 
   dom.window.requestAnimationFrame((_){
     new GameManager(4, new HTMLActuator(), new KeyboardInputManager());
