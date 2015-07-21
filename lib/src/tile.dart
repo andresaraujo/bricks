@@ -18,4 +18,6 @@ class Tile {
   updatePosition(Position position) {
     this.position = position;
   }
+
+  toString() => "{position: $position, value: $value, previousPosition: $previousPosition, mergedFrom: $mergedFrom}";
 }

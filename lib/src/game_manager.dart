@@ -123,7 +123,8 @@ class GameManager {
   void move(int direction) {
     if (isGameTerminated()) return; // Don't do anything if the game's over
 
-    var cell, tile;
+    var cell;
+    Tile tile;
 
     var vector     = this.getDirectionVector(direction);
     var traversals = this.buildTraversals(vector);
@@ -235,8 +236,8 @@ class GameManager {
 
         if(tile != null) {
           for(var direction = 0; direction < 4; direction++) {
-            var vector = getDirectionVector(direction);
-            var cell = new Position(vector.x, vector.y);
+            Position vector = getDirectionVector(direction);
+            Position cell = new Position(x + vector.x, y + vector.y);
 
             var other = grid.cellContent(cell.x, cell.y);
 
